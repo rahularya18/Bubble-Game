@@ -37,8 +37,7 @@ function runtimer() {
         else {
             clearInterval(timerinterval);
             document.querySelector("#tb").innerHTML = `<h1>Game Over </h1>`;
-            document.querySelector("#tb").innerHTML = `<h1>Your Score is : ${finalScore - 10}</h1>`;
-
+            document.querySelector("#tb").innerHTML = `<h2>Your Score is : ${finalScore - 10}</h2>`;
             document.querySelector("#tb").appendChild(bt);
             // console.log(dets.target.textContent);
         }
